@@ -1,0 +1,59 @@
+{
+  "pages": [   
+    "pages/guide/index",
+    "pages/home_center/device_list/index",
+    "pages/home_center/common_panel/index",
+    "pages/home_center/device_manage/index",
+    "pages/cloud_check/index",
+    "pages/function_center/device_connect/index",
+    "pages/web_view/index",
+    "pages/base_function/index"
+  ],
+
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "智能家居小程序",
+    "navigationBarTextStyle": "black"
+  },
+
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/guide/index",
+        "iconPath": "/image/Home_OFF.png",
+        "selectedIconPath": "/image/Home_ON.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/cloud_check/index",
+        "iconPath": "/image/Cloud_OFF.png",
+        "selectedIconPath": "/image/Cloud_ON.png",
+        "text": "云部署"
+      },
+      {
+        "pagePath": "pages/base_function/index",
+        "iconPath": "/image/Fuction_OFF.png",
+        "selectedIconPath": "/image/Fuction_ON.png",
+        "text": "基础功能"
+      },
+      {
+        "pagePath": "pages/home_center/device_list/index",
+        "iconPath": "/image/Board_OFF.png",
+        "selectedIconPath": "/image/Board_ON.png",
+        "text": "APP面板"
+      }
+      ],
+    "color": "0xFFFFFF",
+    "selectedColor": "#0x9999FF"
+  },
+
+  "plugins": {
+    "tuya-ap-plugin": {
+      "version": "3.3.9",
+      "provider": "wxd2aa51ffacc3ff86"
+    }
+  },
+  "sitemapLocation": "sitemap.json",
+  "usingComponents": {}
+}
