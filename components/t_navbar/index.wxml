@@ -4,5 +4,5 @@
   <view class="custom-header-block" bindtap="jumpEditPage">
     <view class="custom-header-name">{{device_name}}</view>
     <van-icon name='edit' size="20px" color="#000" />
-  </view>
+</view>
 </view>

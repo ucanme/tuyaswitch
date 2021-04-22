@@ -3,5 +3,4 @@
   "rules": [{
   "action": "allow",
   "page": "*"
-  }]
-}
+  }]}

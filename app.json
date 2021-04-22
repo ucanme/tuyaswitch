@@ -52,8 +52,8 @@
     "tuya-ap-plugin": {
       "version": "3.3.9",
       "provider": "wxd2aa51ffacc3ff86"
-    }
-  },
+    }},
   "sitemapLocation": "sitemap.json",
   "usingComponents": {}
 }
+
